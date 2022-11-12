@@ -2,7 +2,7 @@ name: Lychee-Checker
 
 on:
   schedule:
-    - cron: "5 17 * * *"
+    - cron: "12 17 * * *"
 
 jobs:
   linkChecker:
