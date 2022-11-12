@@ -8,4 +8,4 @@ jobs:
     steps:
       - uses: wow-actions/activity-report@v1
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+           repo-token: ${{ secrets.GITHUB_TOKEN }}
